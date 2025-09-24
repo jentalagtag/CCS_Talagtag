@@ -15,4 +15,8 @@
         <p><strong>Phone:</strong> +63 912 345 6789</p>
     </div>
 </div>
+
+<a href="/home" class="btn btn-outline-primary m-2">Back to Home</a>
+<a href="/about" class="btn btn-outline-success m-2">Go to about Page</a>
+
 @endsection
