@@ -1,12 +1,18 @@
 @extends('layouts.app')
 
-@section('content')
-    <h1>Contact Us</h1>
-    <p>If you have any questions, feel free to reach us at:</p>
+@section('title', 'Contact Page')
 
-    <ul>
-        <li>Email: <a href="mailto:ccs@example.com">ccs@example.com</a></li>
-        <li>Phone: +63 912 345 6789</li>
-        <li>Address: College of Computer Studies, Your University</li>
-    </ul>
+@section('content')
+<h1>Contact Us</h1>
+<div class="contact-info mb-4 p-4 bg-warning text-dark rounded">
+    <p>HealthCare PWA is designed to make healthcare accessible. 
+        Have questions or need assistance? 
+        We’d love to hear from you.</p>
+    
+    <div class="contact-details">
+        <p><strong>Location:</strong> HealthCare PWA in Sta. Cruz Sur, Iriga City</p>
+        <p><strong>Email:</strong> support@healthcarepwa.com</p>
+        <p><strong>Phone:</strong> +63 912 345 6789</p>
+    </div>
+</div>
 @endsection
